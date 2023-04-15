@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <attr name="android:orientation" />
+        <attr name="step_view_direction" format="enum">
+            <enum name="fromLeft" value="0" />
+            <enum name="fromRight" value="1" />
+            <enum name="fromTop" value="2" />
+            <enum name="fromBottom" value="3" />
+        </attr>
+        <attr name="step_view_line_2_icon_padding" format="dimension" />
+        <attr name="step_view_node_padding" format="dimension" />
+        <attr name="step_view_line_width" format="dimension" />
+        <attr name="step_view_undo_icon" format="reference" />
+        <attr name="step_view_doing_icon" format="reference" />
+        <attr name="step_view_done_icon" format="reference" />
+        <attr name="step_view_error_icon" format="reference" />
+        <attr name="step_view_icon_radius" format="dimension" />
+        <attr name="step_view_radius" format="dimension" />
+    </declare-styleable>
+</resources>

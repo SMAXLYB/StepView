@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff5f5f5">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步骤一"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rp1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1">
+
+        <RadioButton
+            android:id="@+id/rp1_rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="未完成" />
+
+        <RadioButton
+            android:id="@+id/rp1_rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进行中" />
+
+        <RadioButton
+            android:id="@+id/rp1_rd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异常" />
+
+        <RadioButton
+            android:id="@+id/rp1_rd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步骤二"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rp1" />
+
+    <RadioGroup
+        android:id="@+id/rp2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv2">
+
+        <RadioButton
+            android:id="@+id/rp2_rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="未完成" />
+
+        <RadioButton
+            android:id="@+id/rp2_rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进行中" />
+
+        <RadioButton
+            android:id="@+id/rp2_rd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异常" />
+
+        <RadioButton
+            android:id="@+id/rp2_rd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步骤三"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rp2" />
+
+    <RadioGroup
+        android:id="@+id/rp3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv3">
+
+
+        <RadioButton
+            android:id="@+id/rp3_rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="未完成" />
+
+        <RadioButton
+            android:id="@+id/rp3_rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进行中" />
+
+        <RadioButton
+            android:id="@+id/rp3_rd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异常" />
+
+        <RadioButton
+            android:id="@+id/rp3_rd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步骤四"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rp3" />
+
+    <RadioGroup
+        android:id="@+id/rp4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv4">
+
+        <RadioButton
+            android:id="@+id/rp4_rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="未完成" />
+
+        <RadioButton
+            android:id="@+id/rp4_rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进行中" />
+
+        <RadioButton
+            android:id="@+id/rp4_rd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异常" />
+
+        <RadioButton
+            android:id="@+id/rp4_rd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成" />
+
+        <RadioButton
+            android:id="@+id/rp4_rd6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摆放方向"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rp4" />
+
+    <RadioGroup
+        android:id="@+id/rp5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv5">
+
+        <RadioButton
+            android:id="@+id/rp5_rd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="水平" />
+
+        <RadioButton
+            android:id="@+id/rp5_rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="竖直" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起始方向"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rp5" />
+
+    <RadioGroup
+        android:id="@+id/rp6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv6">
+
+        <RadioButton
+            android:id="@+id/rp6_rd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="从左开始" />
+
+        <RadioButton
+            android:id="@+id/rp6_rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="从右开始" />
+
+        <RadioButton
+            android:id="@+id/rp6_rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="从上开始" />
+
+        <RadioButton
+            android:id="@+id/rp6_rd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="从下开始" />
+    </RadioGroup>
+
+
+    <com.github.smaxlyb.stepview.StepView
+        android:id="@+id/step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rp6"
+        app:step_view_line_2_icon_padding="10dp"
+        app:step_view_line_width="2dp"
+        app:step_view_node_padding="5dp"
+        app:step_view_undo_icon="@drawable/ic_undo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
