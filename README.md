@@ -19,7 +19,7 @@ repositories {
 添加依赖
 ```
 dependencies {
-    implementation 'com.github.SMAXLYB:StepView:Tag'
+    implementation 'com.github.SMAXLYB:StepView:v1.0.0'
 }
 ```
 
